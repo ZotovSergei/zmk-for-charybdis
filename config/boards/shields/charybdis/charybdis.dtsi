@@ -3,9 +3,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    V&Z-Nano35_layout: V&Z-Nano35_layout {
+    Nano35_layout: Nano35_layout {
         compatible = "zmk,physical-layout";
-        display-name = "V&Z-Nano35";
+        display-name = "Nano35";
 
         kscan = <&kscan0>;
         transform = <&matrix_transform0>;
@@ -107,7 +107,7 @@
     };
 };
 
-&V&Z-Nano35_layout{
+&Nano35_layout{
 
 	transform = <&default_transform>;
 	kscan = <&kscan0>;
