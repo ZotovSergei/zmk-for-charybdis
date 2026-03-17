@@ -172,15 +172,15 @@
 
         base {
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E             &kp R  &tdT            &kp Y        &kp U          &kp I      &kp O    &kp P     &lt 3 LEFT_BRACKET
-&kp TAB         &kp A  &tdS   &tdD              &tdF   &kp G           &kp H        &tdJ           &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V  &kp B           &kp N        &kp M          &kp COMMA  &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
-                              &kp LEFT_CONTROL  &mo 1  &mt LGUI RET    &lt 2 SPACE  &kp BACKSPACE  &kp CAPS
+&kp ESC         &kp Q  &kp W  &kp E             &kp R  &tdT            &kp Y        &kp U          &kp I       &kp O    &kp P     &lt 3 LEFT_BRACKET
+&kp TAB         &kp A  &tdS   &tdD              &tdF   &kp G           &kp H        &tdJ           &kp K       &kp L    &kp SEMI  &kp APOS
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V  &kp B           &kp N        &kp M          &kp COMMA   &kp DOT  &kp FSLH  &mt RALT RIGHT_BRACKET
+                              &kp LEFT_CONTROL  &mo 1  &mt LGUI RET    &lt 2 SPACE  &kp BACKSPACE  &lt 3 CAPS
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动            
@@ -197,7 +197,7 @@
 
             sensor-bindings =
                 <&scroll_horizontal_encoder>,
-                // 编码器1：左右滚动    ,,,,,,,,,
+                // 编码器1：左右滚动    ,,,,,,,,,,
                 <&scroll_vertical_encoder>;
 
             // 编码器2：上下滚动
